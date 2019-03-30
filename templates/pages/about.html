@@ -1,11 +1,12 @@
 {% extends 'base.html' %}
+{% load static %}
 {% block content %}
 
 <section id="showcase-inner" class="py-5 text-white">
         <div class="container">
           <div class="row text-center">
             <div class="col-md-12">
-              <h1 class="display-4">About BT Real Estate</h1>
+              <h1 class="display-4">About Janus Travel</h1>
               <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt, pariatur!</p>
             </div>
           </div>
@@ -31,12 +32,16 @@
         <div class="container">
           <div class="row">
             <div class="col-md-8">
-              <h2>We Search For The Perfect Home</h2>
+              <h2>The Vacation Specialists</h2>
               <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt, pariatur!</p>
-              <img src="assets/img/about.jpg" alt="">
-              <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis esse officia repudiandae ad saepe ex, amet
-                neque quod accusamus rem quia magnam magni dolorum facilis ullam minima perferendis? Exercitationem at quaerat
-                commodi id libero eveniet harum perferendis laborum molestias quia.</p>
+              <img src="{% static 'img/Santorini.jpg' %}" style="width: 500px;" alt="">
+              <p class="mt-4">Janus Travel started in 1979 when Ted Janus was a Chicago Police Officer. Ted Janus started selling affordable, discount vacation packages that could be arranged on short notice primarily to law enforcement, fire department personnel, court personnel and federal officers.
+
+Janus Travel began as a discount travel agency on Higgins Avenue in Chicago with 3 employees in a rented office. In 1990, Janus Travel purchased its own office at 6121 Northwest Highway in Chicago, IL. Ted Janus retired from the Chicago Police Department after almost 30 years. Today, Janus Travel still sells to law enforcement and fire department personnel, although the clientele has greatly expanded to the general public.
+
+Janus Travel specializes in vacation packages to the Caribbean, Mexico, Hawaii and Las Vegas but also sells cruises, air only to certain domestic and international destinations, and packages to destinations all over the world. 
+
+Janus Travel strives to secure the best prices for your vacation packages!</p>
             </div>
             <div class="col-md-4">
               <div class="card">
