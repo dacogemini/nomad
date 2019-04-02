@@ -22,6 +22,7 @@ INSTALLED_APPS = [
     'pages.apps.PagesConfig',
     'packages.apps.PackagesConfig',
     'agents.apps.AgentsConfig',
+    'regions.apps.RegionsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

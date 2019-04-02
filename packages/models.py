@@ -1,8 +1,10 @@
 from django.db import models
 from datetime import datetime
+from regions.models import Region
 
 
 class Package(models.Model):
+    region = models.ForeignKey(Region, on_delete=models.DO_NOTHING)
     provider = models.CharField(max_length=200)
     destination = models.CharField(max_length=200)
     description = models.TextField(blank=True)
