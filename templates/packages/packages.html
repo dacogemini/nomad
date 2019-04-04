@@ -24,7 +24,7 @@
             <a href="{% url 'index' %}">
               <i class="fas fa-home"></i> Home</a>
           </li>
-          <li class="breadcrumb-item active"> Browse Listings</li>
+          <li class="breadcrumb-item active"> Browse Packages</li>
         </ol>
       </nav>
     </div>
@@ -34,8 +34,16 @@
   <section id="listings" class="py-4">
     <div class="container">
       <div class="row">
+        {% if packages %}
+          {% for package in packages %}
 
-        <!-- Listing 1 -->
+          {% endfor %}
+        {% else %}
+          <div class="col-md-12">
+            <p>No Package Found</p>
+          </div>
+        {% endif %}
+        <!-- Package 1 -->
         <div class="col-md-6 col-lg-4 mb-4">
           <div class="card listing-preview">
             <img class="card-img-top" src="assets/img/homes/home-1.jpg" alt="">
