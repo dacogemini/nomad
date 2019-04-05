@@ -2,6 +2,7 @@ from django.shortcuts import render
 
 from .models import Package
 
+
 def index(request):
     packages = Package.objects.all()
 
