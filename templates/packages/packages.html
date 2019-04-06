@@ -55,28 +55,15 @@
               </div>
               <hr>
               <div class="row py-2 text-secondary">
-                <div class="col-6">
-                 <i class="fas fa-hot-tub"></i>Resport & Spa</div>
-                <div class="col-6">
-                  <i class="fas fa-dollar-sign"></i>300 instant credit!</div>
-              </div>
-              <div class="row py-2 text-secondary">
-                <div class="col-6">
-                  <i class="fas fa-bed"></i> Nights: 3</div>
-                <div class="col-6">
-                  <i class="fas fa-plane"></i> Flight</div>
-              </div>
-              <hr>
-              <div class="row py-2 text-secondary">
                 <div class="col-12">
                   <i class="fas fa-sun"></i> Funjet Vacations</div>
               </div>
               <div class="row text-secondary pb-2">
                 <div class="col-6">
-                  <i class="fas fa-clock"></i> 2 days ago</div>
+                  <i class="fas fa-clock"></i> {{ package.list_date | timesince }}</div>
               </div>
               <hr>
-              <a href="http://www.funjet.com/Deals/Deal.aspx?deal=719&region=73&psinput=999&plcode=14680584" class="btn btn-primary btn-block">More Info</a>
+              <a href="{{ package.details }}" class="btn btn-primary btn-block">More Info</a>
             </div>
           </div>
         </div>
