@@ -10,3 +10,9 @@ Designed by Dan Collins
 Deployed with <code>Netlify</code>
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/f60b806f-3067-4d37-9af6-8465bd99a14d/deploy-status)](https://app.netlify.com/sites/focused-brahmagupta-47eb89/deploys)
+
+### TECHNOLOGIES USED
+
+[![postgres](https://lh3.googleusercontent.com/KW52L5UnrHTD81gLX1P94EIyGCYMfv2GjzYFAaRCCphZT-28h5MuA4NmMKLqbLN9nKprWlDG6xNUgcO8YRq4XH4LVZkcKozH4n0572h94_YI9DKsQVpTcOSIepK1Y5uelGIF1UmQrw=w100)
+
+[![python](https://lh3.googleusercontent.com/ul6Mw0hdKF6n4zlydwxMe5QzvgIDuz1U25SOKhZdOviVeayTFv7DVsTT05zk2clHYOPtwQkTrmYX95wbHBaWBtPvLJFBOBPNNOzB9EY1HWRBPcXE2JtRSu0PQnIU_4HkktD-O1PMSg=w100)
