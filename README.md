@@ -17,5 +17,5 @@ Deployed with <code>Netlify</code>
 
 <img src="https://lh3.googleusercontent.com/ul6Mw0hdKF6n4zlydwxMe5QzvgIDuz1U25SOKhZdOviVeayTFv7DVsTT05zk2clHYOPtwQkTrmYX95wbHBaWBtPvLJFBOBPNNOzB9EY1HWRBPcXE2JtRSu0PQnIU_4HkktD-O1PMSg=w80" align="left"/>
 
-<img src="https://lh3.googleusercontent.com/hmFsU1gVh-71pDq6k3Wkc8fRkmAfd1rXTsPE_6Cuclx3-2mz-EIQw6YGT4FHlyArnjmUmOJGdRZsDeWp4cV4h2o_J9HSQbrKCbctSmx_lQGWd2RQqWAv887kc-Npelj1q11yQEdT-g=w100" align="left"/>
+<img src="https://lh3.googleusercontent.com/hmFsU1gVh-71pDq6k3Wkc8fRkmAfd1rXTsPE_6Cuclx3-2mz-EIQw6YGT4FHlyArnjmUmOJGdRZsDeWp4cV4h2o_J9HSQbrKCbctSmx_lQGWd2RQqWAv887kc-Npelj1q11yQEdT-g=w80" align="left"/>
 
