@@ -13,7 +13,7 @@ Deployed with <code>Netlify</code>
 
 ### TECHNOLOGIES USED
 
-<img src="https://lh3.googleusercontent.com/KW52L5UnrHTD81gLX1P94EIyGCYMfv2GjzYFAaRCCphZT-28h5MuA4NmMKLqbLN9nKprWlDG6xNUgcO8YRq4XH4LVZkcKozH4n0572h94_YI9DKsQVpTcOSIepK1Y5uelGIF1UmQrw=w100" align="left" style="height: 70px;"/>
+<img src="https://lh3.googleusercontent.com/KW52L5UnrHTD81gLX1P94EIyGCYMfv2GjzYFAaRCCphZT-28h5MuA4NmMKLqbLN9nKprWlDG6xNUgcO8YRq4XH4LVZkcKozH4n0572h94_YI9DKsQVpTcOSIepK1Y5uelGIF1UmQrw=w100" align="left" style="height: 100px;"/>
 
 <img src="https://lh3.googleusercontent.com/ul6Mw0hdKF6n4zlydwxMe5QzvgIDuz1U25SOKhZdOviVeayTFv7DVsTT05zk2clHYOPtwQkTrmYX95wbHBaWBtPvLJFBOBPNNOzB9EY1HWRBPcXE2JtRSu0PQnIU_4HkktD-O1PMSg=w80" align="left" style="height: 40px"/>
 
