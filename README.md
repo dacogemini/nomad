@@ -15,5 +15,7 @@ Deployed with <code>Netlify</code>
 
 <img src="https://lh3.googleusercontent.com/KW52L5UnrHTD81gLX1P94EIyGCYMfv2GjzYFAaRCCphZT-28h5MuA4NmMKLqbLN9nKprWlDG6xNUgcO8YRq4XH4LVZkcKozH4n0572h94_YI9DKsQVpTcOSIepK1Y5uelGIF1UmQrw=w110" align="left"/>
 
-<img src="https://lh3.googleusercontent.com/ul6Mw0hdKF6n4zlydwxMe5QzvgIDuz1U25SOKhZdOviVeayTFv7DVsTT05zk2clHYOPtwQkTrmYX95wbHBaWBtPvLJFBOBPNNOzB9EY1HWRBPcXE2JtRSu0PQnIU_4HkktD-O1PMSg=w80" align="left" style="height: 40px"/>
+<img src="https://lh3.googleusercontent.com/ul6Mw0hdKF6n4zlydwxMe5QzvgIDuz1U25SOKhZdOviVeayTFv7DVsTT05zk2clHYOPtwQkTrmYX95wbHBaWBtPvLJFBOBPNNOzB9EY1HWRBPcXE2JtRSu0PQnIU_4HkktD-O1PMSg=w80" align="left"/>
+
+<img src="https://lh3.googleusercontent.com/6kVdGchPhqRaWJ2zQJxJDr82Q59O3BmVBTz2t_dRzsxaE1UrL33QR41HNerZDO5GlwD-N1Wbf6zVOi3swXZPizVpPvJEAlG-3DbfasDgnED5MQp27HRcj88wawEjOmU5c2W-CP7P7w=s225-p-k" align="left"/>
 
