@@ -2,24 +2,57 @@
 {% block content %}
 <!-- Showcase -->
 <section id="showcase">
-    <div class="container text-center">
-        <div class="home-search p-5">
-            <div class="overlay p-3">
-                <h1 class="display-4 mb-2">
-                    PARTNERS AND DEALS!
-                </h1>
-                <div class="card bg-warning" style="max-width: 21rem; display:inline-block; ">
-  <img class="card-img-top" src="https://lh3.googleusercontent.com/JOfsbEEbqofTrdouG8B7JWPCdhS1eZxb4etRm0f2t3M5YUkZrR6G3FJ_s3xDPogsPv2aXKo3_lehVutb01qRnFzPzjT8sbRkuajoxBBZDzt8v8qx2Gsu7rl0av4zjE-sq8uBR4nTSQ=w2400" alt="Card image cap">
-  <div class="card-body">
-    <h5 class="card-title" style="color: #283D5F;"><i class="fas fa-star"></i> FEATURED SALE <i class="fas fa-star"></i></h5>
-    <p class="card-text" style="color: #283D5F;">Be sure and stop by often to view our weekly specials!</p>
-  </div>
-</div>
-<div class="card" style="width: 18rem; display:inline-block; margin: 2rem;">
-  <img class="card-img-top" src="https://lh3.googleusercontent.com/SoUzmrjt8lq7zjHKeBtgrbpPwiJNc1WszsGURqJigl17UhFYnJu8Hyg8criFOfx54xUBaVId8PFJH5nTHzun7kV02E73fc6Idck9j8aydWYjFZMlvsBqNVKSIEVmJ0Rfv_GueFmrkA=w2400" alt="Card image cap">
-  <div class="card-body">
-    <p class="card-text" style="color: #283D5F;">Come experience the very pinnacle of luxury Caribbean all-inclusive vacations for couples at Sandals Resorts. </p>
-  </div>
-</div>
+  <div class="container text-center">
+    <div class="home-search p-5">
+      <div class="overlay p-3">
+        <h1 class="display-4 mb-2">
+          PARTNERS AND DEALS!
+        </h1>
+        <!-- Funjet -->
+        <div class="card crd-funjet">
+          <img class="card-img-top-funjet"
+            src="https://lh3.googleusercontent.com/VcnlKEEpwj0HvMU3sX7ACy9ndcLkF2lBK5Bz14-Dh9DeKWcIdw_SqAC5w9lFfgsd_Oky5b_gMIla21SUme6etBuisKgtpJu0DknD5j0n2VKDahRrI-gGdx4FlLwIyzIlOTAIFgveVA=w2400"
+            alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text" style="color: #283D5F;">Funjet Vacations offers travel deals to your favorite destinations such as Mexico, Jamaica, the Caribbean and more. Whether you’re planning ahead or taking a last-minute trip, we have exclusive vacation deals you don’t want to miss.</p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+              GO!
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+              aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Thanks for stopping by!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    You will be leaving our website and continuing to one of our valued partners <b>FUNJET VACATIONS.</b> 
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <a class="navbar-brand" href="https://www.funjet.com/deals/last-minute-deals">
+                        <button type="button" class="btn btn-primary">Continue to last  minute deals!</button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Sandals -->
+        <div class="card">
+          <img class="card-img-top"
+            src="https://lh3.googleusercontent.com/SoUzmrjt8lq7zjHKeBtgrbpPwiJNc1WszsGURqJigl17UhFYnJu8Hyg8criFOfx54xUBaVId8PFJH5nTHzun7kV02E73fc6Idck9j8aydWYjFZMlvsBqNVKSIEVmJ0Rfv_GueFmrkA=w2400"
+            alt="Card image cap">
+          <div class="card-body-sandals">
+            <p class="card-text">Come experience the very pinnacle of luxury Caribbean
+              all-inclusive vacations for couples at Sandals Resorts. </p>
+          </div>
+        </div>
 </section>
 {% endblock %}
