@@ -5,16 +5,12 @@ $brand:#283D5F;
 //Partner Colors
 $funjet: #FFD200;
 $sandals: #00B8F3;
+$celebritycruise: #212E36;
 
 //  Social Media Colors
 $twitter: #1891DA;
 $facebook: #3C5999;
 $yelp: #D32223;
-
-
-.btn-secondary {
-    color: $primary !important;
-}
 
 // _topbar
 img {
@@ -34,7 +30,7 @@ img {
 
     color: $twitter;
 
-    a { 
+    a {
         margin-right: 0.4rem;
     }
 
@@ -65,21 +61,18 @@ img {
     min-height: 650px;
     color: $primary;
     padding-top: 6rem;
+
     // Overlay
-    .home-search {
-        min-height: 400px;
-        position: relative;
-        border-radius: 5px;
-    }
     .overlay {
         content: '';
         position: absolute;
         top: 0;
         left: 0;
-        min-height: 400px;
+        min-height: 12rem;
         width: 100%;
         background: rgba(51, 51, 51, 0.8);
     }
+
     // Funjet
     @mixin position($position, $top: null, $right: null, $bottom: null, $left: null) {
         position: $position;
@@ -88,26 +81,45 @@ img {
         bottom: $bottom;
         left: $left;
     }
+
     .crd-funjet {
-        @include position(absolute, $top: 6em, $left: 5%);
+        @include position(relative);
+
+        .card-img-top-funjet {
+            max-height: 9rem;
+            max-width: 18rem;
+        }
     }
+
     .card {
-        background-color: $funjet;
-        max-width: 18rem; 
-        display:inline-block;
+        padding: 1rem;
+        max-width: 18rem;
+        display: inline-block;
     }
+
+    .card-body {
+        
+        background-color: $funjet;
+
+        p {
+            color: $brand;
+        }
+    }
+
     .card-title {
         color: $brand;
     }
-    .card-img-top-funjet {
-        max-height: 9rem;
-        max-width: 18rem;
+    
+    // ~~~~~~~~~~~~~~~ Sandals ~~~~~~~~~~~~~~~~~~ //
+    .crd-sandals {
+        @include position(relative, $top: -11rem);
     }
-    // Sandals
+
     .card-body-sandals {
         background-color: $sandals;
         color: $brand;
     }
+
     // Modal
     @mixin centerer {
         position: absolute;
@@ -115,13 +127,25 @@ img {
         left: 50%;
         transform: translate(-50%, -50%);
     }
+
     .modal-title {
         @include centerer;
         color: $brand;
         font-size: 1.3rem;
     }
+
     .modal-body {
         color: $brand;
+    }
+
+    // ~~~~~~~~ celebrity cruises ~~~~~~~~ //
+    .card-body-celeb {
+        background-color: $celebritycruise;
+        color: $primary;
+    }
+
+    .crd-celeb {
+        @include position(relative, $top: -9rem);
     }
 }
 
@@ -138,7 +162,9 @@ img {
         position: relative;
     }
 }
-
+// ====================================================== //
+// ===================== responsive ===================== //
+// ====================================================== //
 @media (max-width: 991px) {
     #showcase {
         padding-top: 4rem;
@@ -176,6 +202,7 @@ img {
 }
 
 @media (max-width: 576px) {
+    
     #showcase {
         h1 {
             font-size: 30px;
@@ -186,5 +213,14 @@ img {
         h1 {
             font-size: 40px;
         }
+    }
+
+    .crd-sandals {
+        position: relative;
+        margin-top: 12rem;
+    }
+
+    .logo {
+        margin-left: 14rem;
     }
 }
