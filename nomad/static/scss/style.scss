@@ -85,6 +85,8 @@ img {
     .crd-funjet {
         @include position(relative);
 
+        color: $brand;
+
         .card-img-top-funjet {
             max-height: 9rem;
             max-width: 18rem;
@@ -92,18 +94,9 @@ img {
     }
 
     .card {
-        padding: 1rem;
+        padding: .8rem;
         max-width: 18rem;
         display: inline-block;
-    }
-
-    .card-body {
-        
-        background-color: $funjet;
-
-        p {
-            color: $brand;
-        }
     }
 
     .card-title {
@@ -116,7 +109,6 @@ img {
     }
 
     .card-body-sandals {
-        background-color: $sandals;
         color: $brand;
     }
 
@@ -139,14 +131,14 @@ img {
     }
 
     // ~~~~~~~~ celebrity cruises ~~~~~~~~ //
-    .card-body-celeb {
-        background-color: $celebritycruise;
-        color: $primary;
+    .crd-celeb {
+        @include position(relative, $top: -10.2rem);
     }
 
-    .crd-celeb {
-        @include position(relative, $top: -9rem);
+    .card-body-celeb {
+        color: $brand;
     }
+
 }
 
 #showcase-inner.showcase-search {
@@ -158,12 +150,13 @@ img {
 }
 
 .listing-preview {
+
     a {
         position: relative;
     }
 }
 // ====================================================== //
-// ===================== responsive ===================== //
+// ================== Media Queries ===================== //
 // ====================================================== //
 @media (max-width: 991px) {
     #showcase {
