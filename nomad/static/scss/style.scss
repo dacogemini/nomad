@@ -1,6 +1,9 @@
-// Main Colors
+// ~~~~~~~~~~~~~~ Color Sets ~~~~~~~~~~~~~ //
+
+// Standard Colors
 $primary: #fff;
 $brand:#283D5F;
+$gray: rgba(30, 108, 154, 0.577);
 
 //Partner Colors
 $funjet: #FFD200;
@@ -12,7 +15,26 @@ $twitter: #1891DA;
 $facebook: #3C5999;
 $yelp: #D32223;
 
-// _topbar
+// ~~~~~~~~~~~~~~~~ Mixins ~~~~~~~~~~~~~~~ //
+
+@mixin position($position, $top: null, $right: null, $bottom: null, $left: null) {
+    position: $position;
+    top: $top;
+    right: $right;
+    bottom: $bottom;
+    left: $left;
+}
+
+// Modal Mixin
+@mixin centerer {
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+// ~~~~~~~~~~~~~~~~ topbar ~~~~~~~~~~~~~~~ //
+
 img {
     width: 100%;
 }
@@ -55,6 +77,8 @@ img {
     color: $brand;
 }
 
+// ~~~~~~~~~~~~~~~~~ Main ~~~~~~~~~~~~~~~~ //
+
 #showcase {
     background: url(../img/beach.jpg) no-repeat top center fixed/cover;
     position: relative;
@@ -73,91 +97,32 @@ img {
         background: rgba(51, 51, 51, 0.8);
     }
 
-    // Funjet
-    @mixin position($position, $top: null, $right: null, $bottom: null, $left: null) {
-        position: $position;
-        top: $top;
-        right: $right;
-        bottom: $bottom;
-        left: $left;
-    }
-
-    .crd-funjet {
-        @include position(relative);
-
-        color: $brand;
-
-        .card-img-top-funjet {
-            max-height: 9rem;
-            max-width: 18rem;
-        }
-    }
-
-    .card {
-        padding: .8rem;
-        max-width: 18rem;
-        display: inline-block;
-    }
-
-    .card-title {
-        color: $brand;
-    }
-    
-    // ~~~~~~~~~~~~~~~ Sandals ~~~~~~~~~~~~~~~~~~ //
-    .crd-sandals {
-        @include position(relative, $top: -11rem);
-    }
-
-    .card-body-sandals {
-        color: $brand;
-    }
-
-    // Modal
-    @mixin centerer {
-        position: absolute;
-        top: 12%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-
-    .modal-title {
-        @include centerer;
-        color: $brand;
-        font-size: 1.3rem;
-    }
-
-    .modal-body {
-        color: $brand;
-    }
-
-    // ~~~~~~~~ celebrity cruises ~~~~~~~~ //
-    .crd-celeb {
-        @include position(relative, $top: -10.2rem);
-    }
-
-    .card-body-celeb {
-        color: $brand;
-    }
-
-}
-
-#showcase-inner.showcase-search {
-    min-height: 270px;
-}
-
 #work {
     padding: 6rem 0;
 }
 
+// ##################################################################### //
+// ############################## Packages ############################# //
+// ##################################################################### //
+
+// Package Main Photos
 .listing-preview {
 
     a {
         position: relative;
     }
 }
-// ====================================================== //
-// ================== Media Queries ===================== //
-// ====================================================== //
+
+// packages section id#
+#showcase-inner {
+    height: 1rem;
+}
+
+.text-gray {
+    color: $gray;
+}
+// ~~~~~~~~~~~~ Media Queries ~~~~~~~~~~~~ //
+
 @media (max-width: 991px) {
     #showcase {
         padding-top: 4rem;
@@ -195,7 +160,7 @@ img {
 }
 
 @media (max-width: 576px) {
-    
+
     #showcase {
         h1 {
             font-size: 30px;
@@ -216,4 +181,5 @@ img {
     .logo {
         margin-left: 14rem;
     }
+}
 }

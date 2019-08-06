@@ -6,7 +6,7 @@ from .models import Feature
 
 def index(request):
     features = Feature.objects.all()
-    # features = Feature.objects.order_by('list_date').filter(is_published=True)
+    features = Feature.objects.order_by('list_date').filter(is_published=True)
 
     paginator = Paginator(features, 6)
     page = request.GET.get('page')
@@ -15,7 +15,7 @@ def index(request):
     context = {
         'features': paged_features
     }
-    return render(request, 'features/index.html', context)
+    return render(request, 'features/features.html', context)
 
 
 def feature(request):
