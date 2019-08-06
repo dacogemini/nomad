@@ -1,0 +1,41 @@
+img {
+    width: 100%;
+}
+
+.logo {
+    width: 80px;
+}
+
+.navbar {
+    opacity: 0.9;
+    text-transform: uppercase;
+}
+
+.social {
+
+    color: $twitter;
+
+    a {
+        margin-right: 0.4rem;
+    }
+
+    .fa-twitter-square {
+        color: $twitter;
+    }
+
+    .fa-facebook {
+        color: $facebook;
+    }
+
+    .fa-yelp {
+        color: $yelp;
+    }
+
+    .email {
+        color: $brand;
+    }
+}
+
+.brand {
+    color: $brand;
+}

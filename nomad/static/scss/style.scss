@@ -1,83 +1,8 @@
-// ~~~~~~~~~~~~~~ Color Sets ~~~~~~~~~~~~~ //
-
-// Standard Colors
-$primary: #fff;
-$brand:#283D5F;
-$gray: rgba(30, 108, 154, 0.577);
-
-//Partner Colors
-$funjet: #FFD200;
-$sandals: #00B8F3;
-$celebritycruise: #212E36;
-
-//  Social Media Colors
-$twitter: #1891DA;
-$facebook: #3C5999;
-$yelp: #D32223;
-
-// ~~~~~~~~~~~~~~~~ Mixins ~~~~~~~~~~~~~~~ //
-
-@mixin position($position, $top: null, $right: null, $bottom: null, $left: null) {
-    position: $position;
-    top: $top;
-    right: $right;
-    bottom: $bottom;
-    left: $left;
-}
-
-// Modal Mixin
-@mixin centerer {
-    position: absolute;
-    top: 12%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-// ~~~~~~~~~~~~~~~~ topbar ~~~~~~~~~~~~~~~ //
-
-img {
-    width: 100%;
-}
-
-.logo {
-    width: 80px;
-}
-
-.navbar {
-    opacity: 0.9;
-    text-transform: uppercase;
-}
-
-.social {
-
-    color: $twitter;
-
-    a {
-        margin-right: 0.4rem;
-    }
-
-    .fa-twitter-square {
-        color: $twitter;
-    }
-
-    .fa-facebook {
-        color: $facebook;
-    }
-
-    .fa-yelp {
-        color: $yelp;
-    }
-
-    .email {
-        color: $brand;
-    }
-}
-
-.brand {
-    color: $brand;
-}
-
-// ~~~~~~~~~~~~~~~~~ Main ~~~~~~~~~~~~~~~~ //
+@import 'base';
+@import 'topbar';
+@import 'text-styles';
+@import 'mixins';
+@import 'media-queries';
 
 #showcase {
     background: url(../img/beach.jpg) no-repeat top center fixed/cover;
@@ -92,94 +17,13 @@ img {
         position: absolute;
         top: 0;
         left: 0;
-        min-height: 12rem;
+        min-height: 20rem;
         width: 100%;
         background: rgba(51, 51, 51, 0.8);
     }
 
-#work {
-    padding: 6rem 0;
-}
-
-// ##################################################################### //
-// ############################## Packages ############################# //
-// ##################################################################### //
-
-// Package Main Photos
-.listing-preview {
-
-    a {
-        position: relative;
+    .card {
+        @include centerer;
+        background-color: $brand;
     }
-}
-
-// packages section id#
-#showcase-inner {
-    height: 1rem;
-}
-
-.text-gray {
-    color: $gray;
-}
-// ~~~~~~~~~~~~ Media Queries ~~~~~~~~~~~~ //
-
-@media (max-width: 991px) {
-    #showcase {
-        padding-top: 4rem;
-
-        h1 {
-            font-size: 40px;
-        }
-    }
-
-    .hide-md-down {
-        display: none;
-    }
-}
-
-@media (max-width: 768px) {
-    #showcase {
-        padding-top: 3rem;
-
-        h1 {
-            font-size: 40px;
-        }
-
-        p {
-            display: none;
-        }
-    }
-
-    #top-bar {
-        text-align: center;
-
-        .social {
-            text-align: center !important;
-        }
-    }
-}
-
-@media (max-width: 576px) {
-
-    #showcase {
-        h1 {
-            font-size: 30px;
-        }
-    }
-
-    #showcase-inner {
-        h1 {
-            font-size: 40px;
-        }
-    }
-
-    .crd-sandals {
-        position: relative;
-        margin-top: 12rem;
-    }
-
-    .logo {
-        margin-left: 14rem;
-    }
-}
 }

@@ -30,7 +30,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # Custom Apps
     'django.contrib.humanize',
-    'feature',
 ]
 
 MIDDLEWARE = [
