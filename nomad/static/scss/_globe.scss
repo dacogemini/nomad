@@ -1,0 +1,149 @@
+.sun {
+	position: absolute;
+	top: -5px;
+	right: 10px;
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	background: #ff8;
+	box-shadow: 0 0 3px 0 #ff8,
+    0 0 6px 0 #ff8,
+    0 0 12px 0 #ff8,
+    0 0 25px 0 #ff8,
+    0 0 50px 0 #ff8,
+    0 0 100px 0 #ff8,
+    0 0 200px 0 #ff8;
+}
+.moon {
+	position: absolute;
+	top: 50px;
+	left: 300px;
+	width: 24px;
+	height: 24px;
+	border-radius: 12px;
+	background: #eee;
+	box-shadow: 0 0 3px 0 #eee,
+    0 0 6px 0 #eee,
+    0 0 12px 0 #eee,
+    0 0 24px 0 #eee;
+}
+.globe {
+	position: absolute;
+	top: 25px;
+	left: 30%;
+	width: 400px;
+	height: 400px;
+	overflow: hidden;
+	border-radius: 200px;
+	&:before {
+		content: "";
+		position: absolute;
+		z-index: 1;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		border-radius: 50%;
+		box-shadow: inset 50px 0 100px 0 #000,
+              inset 0 0 400px 0 #000;
+	}
+}
+.beacon {
+	position: absolute;
+	z-index: 2;
+	display: block;
+	width: 4px;
+	height: 4px;
+	border-radius: 2px;
+	background: #fff;
+	color: #fff;
+	text-decoration: none;
+	transition-duration: 1s;
+	&:before {
+		content: "";
+		position: absolute;
+		z-index: 3;
+		top: -8px;
+		left: -8px;
+		width: 20px;
+		height: 20px;
+		border-radius: 10px;
+		border: 1px solid #fff;
+		box-shadow: 0 0 4px 0 #fff;
+		animation: signal 2s infinite ease-out;
+	}
+	&:after {
+		content: "";
+		position: absolute;
+		z-index: 4;
+		top: -8px;
+		left: -8px;
+		width: 20px;
+		height: 20px;
+		text-indent: 25px;
+		line-height: 20px;
+	}
+}
+.beacon:hover:after,
+.beacon:focus:after {
+	content: attr(data-location);
+}
+@keyframes {
+	signal {
+		0% { transform: scale(0);
+		opacity: 0;
+	}
+	axis {
+		0% { margin-left: -400px;
+	}
+}
+50% {
+	opacity: 1;
+	margin-left: 0px;
+}
+100% {
+	transform: scale(1);
+	opacity: 0;
+	margin-left: -400px;
+}
+} {
+	[data-location=Hawaii] {
+		top: 205px;
+		left: 480px;
+	}
+	html {
+		background: #000;
+	}
+}
+[data-location=Tonga] {
+	top: 310px;
+	left: 460px;
+}
+[data-location=Madagascar] {
+	top: 290px;
+	left: 160px;
+}
+[data-location=Cyprus] {
+	top: 174px;
+	left: 122px;
+}
+[data-location=Dominican-Republic] {
+	top: 205px;
+	left: 650px;
+}
+.surface {
+	position: relative;
+	width: 800px;
+	height: 400px;
+	margin-left: -400px;
+	line-height: 0;
+	background: url(data:image/jpeg;
+	animation: axis 60s infinite linear;
+}
+*,*:before,*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}

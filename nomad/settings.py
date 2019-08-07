@@ -21,7 +21,6 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'pages.apps.PagesConfig',
     'packages.apps.PackagesConfig',
-    'agents.apps.AgentsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -30,6 +29,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # Custom Apps
     'django.contrib.humanize',
+    'blog',
 ]
 
 MIDDLEWARE = [
