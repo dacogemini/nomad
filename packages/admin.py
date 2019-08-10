@@ -9,4 +9,3 @@ class PackageAdmin(admin.ModelAdmin):
     list_editable = ('is_published',)
     search_fields = ('destination', 'description')
 admin.site.register(Package, PackageAdmin)
-

@@ -29,14 +29,16 @@
               <hr>
               <div class="row py-2 text-primary">
                 <div class="col-12">
-                  <i class="fas fa-sun"></i> Funjet Vacations</div>
+                  <i class="fas fa-sun"></i> Funjet Vacations
+                  <a href="{{package.trip_id}}" class="btn btn-primary btn-block">More Info</a>
+                </div>
               </div>
               <div class="row text-gray pb-2">
                 <div class="col-6">
-                  <i class="fas fa-clock"></i> {{ package.list_date | timesince }}</div>
+                  <!-- <i class="fas fa-clock"></i> {{ package.list_date }} -->
+                </div>
               </div>
               <hr>
-              <a href="{{ package.details }}" class="btn btn-primary btn-block">More Info</a>
             </div>
           </div>
         </div>
@@ -46,6 +48,7 @@
             <p>No Package Found</p>
           </div>
         {% endif %}
+      <!--~~~~~~~~~~~~~ pagination ~~~~~~~~~~~~~-->
       <div class="row">
         <div class="col-md-12">
           {% if packages.has_other_pages %}

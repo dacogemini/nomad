@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+<div class="col-md-8 offset-md-2">
+<div class="jumbotron">
+  <h1 class="display-4">Hello, world!</h1>
+  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+  <hr class="my-4">
+  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+</div>
+    <h1>Blog Index</h1>
+    <hr>
+    {% for post in posts %}
+    <h2><a href="{% url 'blog_detail' post.pk%}">{{ post.title }}</a></h2>
+    <small>
+        {{ post.created_on.date }} |&nbsp;
+        Categories:&nbsp;
+        {% for category in post.categories.all %}
+        <a href="{% url 'blog_category' category.name %}">
+            {{ category.name }}
+        </a>&nbsp;
+        {% endfor %}
+    </small>
+    <p>{{ post.body | slice:":400" }}...</p>
+    {% endfor %}
+</div>
+{% endblock %}
