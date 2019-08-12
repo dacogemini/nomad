@@ -1,0 +1,24 @@
+// Placement
+
+.center {
+    @include centerer;
+    display: flex;
+}
+
+.center-hor {
+    @include centerer-hor;
+    display: flex;
+}
+
+.position {
+    display: flex;
+    justify-content: space-between;
+}
+
+.padding-top-01 {
+    padding-top: 1rem;
+}
+
+.padding-top-02 {
+    padding-top: 2rem;
+}

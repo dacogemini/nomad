@@ -6,10 +6,20 @@
     left: $left;
 }
 
+// .foo {
+//     @include position(absolute, $top: 1em, $left: 50%);
+//   }
+
 // Modal Mixin
 @mixin centerer {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+@mixin centerer-hor {
+    position: relative;
+    top: 50%;
+    left: 50%;
 }

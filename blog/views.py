@@ -1,37 +1,19 @@
-from django.shortcuts import render
+from django.views import generic
+from .models import Post
 
-from blog.forms import CommentForm
-from blog.models import Post, Comment
-
-
-def blog_index(request):
-    posts = Post.objects.all().order_by("-created_on")
-    context = {"posts": posts}
-    return render(request, "blog_index.html", context)
-
-
-def blog_category(request, category):
-    posts = Post.objects.filter(categories__name__contains=category).order_by(
-        "-created_on"
-    )
-    context = {"category": category, "posts": posts}
-    return render(request, "blog_category.html", context)
+###########################################################################
+# The built-in ListViews, a subclass of generic class-based-views renders
+# a list with the objects of the specified model we just need to mention
+# the template, similarly DetailView provides a detailed view for a given
+# object of the model at the provided template. #
+###########################################################################
 
 
-def blog_detail(request, pk):
-    post = Post.objects.get(pk=pk)
-    comments = Comment.objects.filter(post=post)
+class PostList(generic.ListView):
+    queryset = Post.objects.filter(status=1).order_by('-created_on')
+    template_name = 'index.html'
 
-    form = CommentForm()
-    if request.method == "POST":
-        form = CommentForm(request.POST)
-        if form.is_valid():
-            comment = Comment(
-                author=form.cleaned_data["author"],
-                body=form.cleaned_data["body"],
-                post=post,
-            )
-            comment.save()
 
-    context = {"post": post, "comments": comments, "form": form}
-    return render(request, "blog_detail.html", context)
+class PostDetail(generic.DetailView):
+    model = Post
+    template_name = 'post_detail.html'

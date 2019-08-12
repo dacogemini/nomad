@@ -18,6 +18,10 @@
                     {% endif %}>
                     <a class="nav-link" href="{% url 'packages' %}">Weekly Specials</a>
                 </li>
+                <li {% if 'blog' in request.path %} class="nav-item active mr-3" {% else %} class="nav-item mr-3"
+                {% endif %}>
+                <a class="nav-link" href="{% url 'blog' %}">blog</a>
+            </li>
             </ul>
 
             <ul class="navbar-nav ml-auto">

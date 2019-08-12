@@ -1,11 +1,12 @@
 
 .card-header {
     color: $funjet;
+    background-color: $brand;
     font-size: 3rem;
 }
 
 .card-text {
-    color: $primary;
+    color: $brand;
     font-size: 1rem;
 }
 
@@ -13,12 +14,12 @@
     color: $brand;
 }
 
-.subtitle-blog {
-    color: $pastel;
-}
-
 .brand {
     color: $brand;
+}
+
+.gray {
+    color: $gray;
 }
 
 

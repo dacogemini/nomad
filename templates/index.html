@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="{% static 'css/all.css' %}">
+    <!-- Custom -->
+    <link rel="stylesheet" href="{% static 'css/style.min.css' %}">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="{% static 'css/googlefonts.css' %}">
+</head>
+
+<body>
+    {% block content %}
+    {% include 'partials/_navbar_blog.html' %}
+    <div class="sidebar">
+        {% block sidebar %} {% include 'partials/_sidebar.html' %}
+        <header class="masthead">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row">
+                    <div class=" col-md-8 col-md-10 mx-auto">
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="container padding-top-02">
+            <div class="card">
+                {% for post in post_list %}
+                <div class="card-body">
+                    <h2 class="card-title brand">{{ post.title }}</h2>
+                    <p class="card-text text-muted h6">{{ post.Author }} | {{ post.created_on}} </p>
+                    <p class="card-text">{{post.content|slice:":200" }}</p>
+                    <a href="{% url 'post_detail' post.slug  %}" class="btn btn-primary">Read More &rarr;</a>
+                </div>
+                {% endfor %}
+                <div class="row">
+                    {% endblock sidebar %}
+                </div>
+                {% endblock content %}
+</body>
+
+</html>
