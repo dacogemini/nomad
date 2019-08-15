@@ -30,6 +30,7 @@ INSTALLED_APPS = [
     # Custom Apps
     'django.contrib.humanize',
     'blog',
+    'city_highlights',
 ]
 
 MIDDLEWARE = [

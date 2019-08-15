@@ -8,10 +8,14 @@ from .models import Post
 # object of the model at the provided template. #
 ###########################################################################
 
+# BLOG
+
 
 class PostList(generic.ListView):
     queryset = Post.objects.filter(status=1).order_by('-created_on')
     template_name = 'index.html'
+
+# BLOG DETAIL
 
 
 class PostDetail(generic.DetailView):

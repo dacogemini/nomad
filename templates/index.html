@@ -21,31 +21,28 @@
 <body>
     {% block content %}
     {% include 'partials/_navbar_blog.html' %}
-    <div class="sidebar">
-        {% block sidebar %} {% include 'partials/_sidebar.html' %}
-        <header class="masthead">
-            <div class="overlay"></div>
-            <div class="container">
-                <div class="row">
-                    <div class=" col-md-8 col-md-10 mx-auto">
+    <!--~~~~~~~~~~~~ Blog Teaser ~~~~~~~~~~~~~-->
+    <div class="container padding-top-02">
+            <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">{{ highlight.title }}</h5>
+                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
-                </div>
             </div>
-        </header>
-        <div class="container padding-top-02">
-            <div class="card">
-                {% for post in post_list %}
-                <div class="card-body">
-                    <h2 class="card-title brand">{{ post.title }}</h2>
-                    <p class="card-text text-muted h6">{{ post.Author }} | {{ post.created_on}} </p>
-                    <p class="card-text">{{post.content|slice:":200" }}</p>
-                    <a href="{% url 'post_detail' post.slug  %}" class="btn btn-primary">Read More &rarr;</a>
-                </div>
-                {% endfor %}
-                <div class="row">
-                    {% endblock sidebar %}
-                </div>
-                {% endblock content %}
+        <div class="card">
+            <!------- for-in loop ------->
+            {% for post in post_list %}
+            <div class="card-body">
+                <h2 class="card-title brand">{{ post.title }}</h2>
+                <p class="card-text text-muted h6">{{ post.Author }} | {{ post.created_on}} </p>
+                <p class="card-text">{{post.content|slice:":200" }}</p>
+                <a href="{% url 'post_detail' post.slug  %}" class="btn btn-primary">Read More &rarr;</a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    {% endblock content %}
 </body>
 
 </html>
