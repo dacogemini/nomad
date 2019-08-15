@@ -1,1 +1,1 @@
-web: gunicorn nomad.wsgi --log-file -
+web: django.core.wsgi --log-file -
