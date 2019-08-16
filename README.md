@@ -1,6 +1,10 @@
 # NOMAD TRAVEL SITE
 Designed by Dan Collins
 
+![alt text](https://lh3.googleusercontent.com/Q48UUDxOcsiyaFIladQxt52i1eklIrWuIZ5i_s4FdFeuV3zSWj9Fg154bxe_85VpQJ1if4mkrxwOkmG8q1ymv5XdIsLl47ijCpVWi-7LpZpdybqbMExbCvnDnut8C94D1-8WD6bNJw=s200-p-k
+ "Logo Title Text 1")
+
+
 <img src="https://lh3.googleusercontent.com/HLXphxogjTbkDBHM3wguDOpd1xt19sUgSDdFNEncl3ULjw1qKM27lLMnf-jBvPVJJ_VxS__xVmY1t6JPMfr4WcA26-WruMb81IRBBmQxQ6_fZN0of75a5wAGRO8Q16IXbMMtkMW_IQ=w100" align="right" style="height: 50px"/>
 
 ### THIRDHOUSE CREATIVE SERVICES
