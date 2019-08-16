@@ -15,7 +15,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -74,7 +73,7 @@ DATABASES = {
         'NAME': 'traveldb',
         'USER': 'postgres',
         'PASSWORD': 'hawaii1976',
-        'HOST': 'localhost'
+        'HOST': '0.0.0.0'
     }
 }
 
