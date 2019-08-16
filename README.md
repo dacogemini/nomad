@@ -5,11 +5,10 @@ Designed by Dan Collins
 
 * Clone the repo https://github.com/dacogemini/nomad.git 
 
+* Run Postgres
+
 * Navigate to root directory and in the bash terminal run <code>python manage.py runserver</code>
 
-Deployed with <code>Netlify</code>
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/f60b806f-3067-4d37-9af6-8465bd99a14d/deploy-status)](https://app.netlify.com/sites/focused-brahmagupta-47eb89/deploys)
 
 ### TECHNOLOGIES USED
 
