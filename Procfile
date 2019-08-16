@@ -1,1 +1,1 @@
-web: gunicorn nomad:nomad --log-file=-
+web: python manage.py runserver --log-file=-
