@@ -4,8 +4,6 @@ Designed by Dan Collins
 ![alt text](https://lh3.googleusercontent.com/Q48UUDxOcsiyaFIladQxt52i1eklIrWuIZ5i_s4FdFeuV3zSWj9Fg154bxe_85VpQJ1if4mkrxwOkmG8q1ymv5XdIsLl47ijCpVWi-7LpZpdybqbMExbCvnDnut8C94D1-8WD6bNJw=s100-p-k
  "Logo Title Text 1")
 
-### THIRDHOUSE CREATIVE SERVICES
-
 * Clone the repo https://github.com/dacogemini/nomad.git 
 
 * Run Postgres
