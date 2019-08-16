@@ -73,7 +73,7 @@ DATABASES = {
         'NAME': 'traveldb',
         'USER': 'postgres',
         'PASSWORD': 'hawaii1976',
-        'HOST': '0.0.0.0'
+        'HOST': 'localhost'
     }
 }
 
