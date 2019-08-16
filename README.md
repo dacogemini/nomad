@@ -1,4 +1,4 @@
-<img src="https://lh3.googleusercontent.com/HLXphxogjTbkDBHM3wguDOpd1xt19sUgSDdFNEncl3ULjw1qKM27lLMnf-jBvPVJJ_VxS__xVmY1t6JPMfr4WcA26-WruMb81IRBBmQxQ6_fZN0of75a5wAGRO8Q16IXbMMtkMW_IQ=w2400" align="right" style="height: 50px"/>
+<img src="https://lh3.googleusercontent.com/HLXphxogjTbkDBHM3wguDOpd1xt19sUgSDdFNEncl3ULjw1qKM27lLMnf-jBvPVJJ_VxS__xVmY1t6JPMfr4WcA26-WruMb81IRBBmQxQ6_fZN0of75a5wAGRO8Q16IXbMMtkMW_IQ=w100" align="right" style="height: 50px"/>
 
 # NOMAD TRAVEL SITE
 Designed by Dan Collins
