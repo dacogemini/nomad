@@ -1,1 +1,1 @@
-web: gunicorn app:nomad --log-file=-
+web: gunicorn nomad:nomad --log-file=-
