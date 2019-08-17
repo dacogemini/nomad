@@ -21,18 +21,10 @@
 <body>
     {% block content %}
     {% include 'partials/_navbar_blog.html' %}
-    <!--~~~~~~~~~~~~ Blog Teaser ~~~~~~~~~~~~~-->
-    <div class="container padding-top-02">
-            <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                      <h5 class="card-title">{{ highlight.title }}</h5>
-                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-            </div>
-        <div class="card">
-            <!------- for-in loop ------->
-            {% for post in post_list %}
+
+        <!------- for-in loop ------->
+        {% for post in post_list %}
+        <div class="padding-top-02">
             <div class="card-body">
                 <h2 class="card-title brand">{{ post.title }}</h2>
                 <p class="card-text text-muted h6">{{ post.Author }} | {{ post.created_on}} </p>
@@ -41,8 +33,7 @@
             </div>
             {% endfor %}
         </div>
-    </div>
-    {% endblock content %}
+    {% endblock %}
 </body>
 
 </html>

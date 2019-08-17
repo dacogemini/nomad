@@ -1,7 +1,11 @@
+{% load static %}
 {% block sidebar %}
 <div class="col-md-4 float-right ">
 <div class="card my-4">
-        <h6 class="card-header">{{ object.title }}</h6>
+{% for highlight in highlight %}
+        {% block title %} {{ highlight.title }} {% endblock title %}
+        <h6 class="card-header">{{ highlight.title }}</h6>
+{% endfor %}
     <div class="card-body brand">
         This awesome blog is made on the top of our Favourite full stack Framework 'Django', follow up the tutorial to learn how we made it..!</p>
         <a href="https://djangocentral.com/building-a-blog-application-with-django"

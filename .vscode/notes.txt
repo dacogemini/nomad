@@ -1,0 +1,10 @@
+templates
+⬇
+packages 📁
+pages 📁
+   ⬇
+    index.html (home) 🏠
+    about.html 👱
+partials 📁
+base.html ✔
+index.html (blog) 
