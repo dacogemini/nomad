@@ -7,6 +7,9 @@ verify_ssl = true
 
 [packages]
 gunicorn = "*"
+django = "*"
+psycopg2 = "*"
+waitress = "*"
 
 [requires]
 python_version = "3.7"

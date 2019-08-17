@@ -1,1 +1,1 @@
-web: gunicorn django.core.wsgi --log-file -
+web: waitress-serve --port=$PORT {nomad}.wsgi:application
