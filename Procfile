@@ -1,2 +1,2 @@
-web: gunicorn nomad-travel-prod:nomad-travel-prod
+web: gunicorn nomad-travel-prod:app
 
