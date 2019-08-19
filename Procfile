@@ -1,1 +1,1 @@
-web: gunicorn nomad:nomad-travel-jt
+web: gunicorn nomad:application
