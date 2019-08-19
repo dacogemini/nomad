@@ -1,1 +1,1 @@
-web: waitress-serve --port=$PORT {nomad}.wsgi:application
+web: gunicorn app:app
