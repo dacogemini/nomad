@@ -5,12 +5,6 @@
     display: flex;
 }
 
-.center-hor {
-    @include centerer-hor;
-    display: flex;
-    
-}
-
 .padding-top-01 {
     padding-top: 1rem;
 }

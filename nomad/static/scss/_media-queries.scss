@@ -1,10 +1,49 @@
 @media (max-width: 991px) {
-    #showcase {
-        padding-top: 4rem;
-
+    
+    #top-bar {
+        h1 {
+            font-size: 30px;
+        }
+        
+    }
+    
+    .card {
         h1 {
             font-size: 40px;
         }
+
+        margin-top: 3rem;
+    }
+
+    .lead {
+        h1 {
+            font-size: 20px;
+        }
+    }
+
+    .card-img-top {
+        display: none;
+    }
+
+    .hide-md-down {
+        display: none;
+    }
+}
+
+@media (max-width: 912px) {
+
+    .card {
+
+        h1 {
+            font-size: 30px;
+        }
+
+        margin-top: 3rem;
+    }
+
+    .lead {
+
+        font-size: 20px;
     }
 
     .center {
@@ -21,46 +60,94 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 863px) {
 
-    #showcase {
-        padding-top: 3rem;
+    .card {
+
+        margin-top: 4rem;
+
+        h1 {
+            font-size: 30px;
+        }
+
+    }
+
+    .lead {
+
+        font-size: 20px;
+    }
+
+    .center {
+
+        padding-top: 4rem;
+
+        h1 {
+            font-size: 20px;
+        }
+    }
+
+    .hide-md-down {
+        display: none;
+    }
+}
+
+
+@media (max-width: 770px) {
+
+    .card {
+
+        margin-top: 8rem;
 
         h1 {
             font-size: 40px;
         }
 
-        p {
-            display: none;
-        }
     }
 
+    .lead {
+        font-size: 20px;
+    }
+
+    .logo {
+        display: none;
+    }
+
+
     #top-bar {
+
+        h1 {
+            font-size: 40px;
+        }
+
         text-align: center;
 
         .social {
-            text-align: center !important;
+            display: none;
+        }
+
+        .fa-phone {
+            display: none;
+        }
+
+        .phone {
+            margin-left: -3rem;
         }
     }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 676px) {
 
-    .card-header {
-        font-size: 2rem;
-    }
-    
-    #showcase {
+    .card {
+
+        margin-top: 2rem;
+
         h1 {
-            font-size: 30px;
+            font-size: 20px;
         }
     }
 
-    #showcase-inner {
-
-        h1 {
-            font-size: 30px;
-        }
+    .lead {
+        font-size: 10px;
     }
 
     .logo {

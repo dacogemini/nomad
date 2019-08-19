@@ -1,17 +1,19 @@
 @import 'base';
 @import 'topbar';
 @import 'text-styles';
+@import 'margins';
 @import 'mixins';
 @import 'media-queries';
 @import 'blog';
 @import 'position';
 
-#showcase {
-    background: url(../img/beach.jpg) no-repeat top center fixed/cover;
+.jumbotron {
+    background-image: url(../img/beach.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
-    min-height: 650px;
-    color: $primary;
-    padding-top: 6rem;
+    min-height: 450px;
+    margin: 0rem;
 
     // Overlay
     .overlay {
@@ -25,7 +27,17 @@
     }
 
     .card {
+        padding-top: 1rem;
+    }
+
+    .card-primary {
         @include centerer;
         background-color: $brand;
+        color: $primary;
+        padding: 1rem;
+
+        .card-img-top {
+            max-height: 100px;
+        }
     }
 }

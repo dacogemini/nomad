@@ -2,3 +2,11 @@
     @include position(absolute, $top: 1em, $left: 50%);
 
 }
+
+.mx-rt {
+    @include righter;
+}
+
+.mx-top-rt {
+    @include righter-tp;
+}
