@@ -35,6 +35,8 @@ The backend application is written in <b>Python</b>, using the <b>Django</b> fra
  "Digital-Ocean") &nbsp;
 ![gunicorn icon](https://lh3.googleusercontent.com/9MmL-4BgOySjRwvHXJJ2L0ghS6RzAma1eoZdHldxiBsz40wUaxXgXcvKCKFFW9Ll1MBjo4xY7F4-fOgBkWplAb9TM-_JfAeNajCWESK5NmfqLr82y8S5FVtywqzBgoKR5I20-qNPpw=w200
  "Gunicorn") &nbsp;
+ ![nginx icon](https://lh3.googleusercontent.com/NiSdIZ9C1oFvwal7MJtzM2MVy9TUvgXiHhkbaXQV-FsZMA0AWcx2CxldSKgJEE7eyUjOldQzYn85Ya1WWyGoJ7RS6GvXMAWeWrV-SKFW0gkNDDNgkmG2cCH05CVXSVuvhs16SHod9w=w170
+ "Nginx") 
 
 #### BACKEND PACKAGES
 
