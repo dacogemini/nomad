@@ -46,22 +46,13 @@ If you need to add new packages to the backend app, you can use Pipenv to do so:
 
 Here are the existing packages already in use:
 
-Django: A full-featured web framework for Python
-djangorestframework: A library that provides an extensive toolset for using Django as a backend API for an SPA.
-django-filter: Easy Django Queryset filtering from URL params
-django-storages: Adapter for various storage backends.
-django-model-utils: A set of composable models, managers, and fields that extend Django's functionality.
-django-dotenv: A package for managing Django's environment variables from a .env file.
-gunicorn: A WSGI HTTP server used to serve the app.
-psycopg2: A PostgreSQL adapter for Python.
-pyyaml: A YAML parser and emitter.
-pendulum: A package that extends and improves on Python's default date and time handling.
-django-heroku: A package that configures Django apps to run on a Heroku dyno.
-djoser: A package that provides RESTful hooks for Django's auth system.
-djangorestframework-simplejwt: Allows us to use JWTs to authenticate users.
-pillow: Image manipulation on the server.
-django-cors-headers: Override CORS headers errors in local development.
-django-role-permissions: Manage user authorization and roles.
+- Django: A full-featured web framework for Python
+- Gunicorn: A WSGI HTTP server used to serve the app.
+- NGINX: A buffering reverse proxy server for gunicorn.
+- Waitress: NOTE: if you are not using a buffering reverse proxy like Nginx, we recommend you use Waitress.
+- psycopg2: A PostgreSQL adapter for Python.
+- pillow: Image manipulation on the server.
+
 
 
 
