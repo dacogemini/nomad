@@ -1,7 +1,7 @@
 # NOMAD TRAVEL SITE
 Designed by Dan Collins
 
-![alt text](https://lh3.googleusercontent.com/Q48UUDxOcsiyaFIladQxt52i1eklIrWuIZ5i_s4FdFeuV3zSWj9Fg154bxe_85VpQJ1if4mkrxwOkmG8q1ymv5XdIsLl47ijCpVWi-7LpZpdybqbMExbCvnDnut8C94D1-8WD6bNJw=s100-p-k
+![alt text](https://lh3.googleusercontent.com/DXS4kn3fgbwpq7C6crOJou2xqhudc_pD730UrHCAZRP3c68zbiaU8va8BJ5ujhf0xPjVgWUz6KbGuTKiWy3NYt0oVMrKkvrDuQAgqGspgO1g-utGMVHQN18kx2n7qoqnPREeXcRgPA=s70-p-k
  "created by Dan Collins")
  
  ### STEPS
