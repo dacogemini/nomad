@@ -13,7 +13,8 @@
 ### TECHNOLOGIES USED
 
 What Technologies Are We Using?
-The backend application is written in <b>Python</b>, using the <b>Django</b> framework and <b>djangoadmin</b>. The frontend application is written in <b>Javascript/HTML5</b>, <b>Jinja</b> templating and <b>SASS</b> & <b>Bootstrap</b> for styling. 
+The backend application is written in <b>Python</b>, using the <b>Django</b> framework and <b>djangoadmin</b>. The frontend application is written in <b>Javascript/HTML5</b>, <b>Jinja</b> templating and <b>SASS</b> & <b>Bootstrap</b> for styling.
+<br />
 
 
 <img src="https://lh3.googleusercontent.com/KW52L5UnrHTD81gLX1P94EIyGCYMfv2GjzYFAaRCCphZT-28h5MuA4NmMKLqbLN9nKprWlDG6xNUgcO8YRq4XH4LVZkcKozH4n0572h94_YI9DKsQVpTcOSIepK1Y5uelGIF1UmQrw=w110" align="left"/>  
@@ -24,8 +25,11 @@ The backend application is written in <b>Python</b>, using the <b>Django</b> fra
 
 ![sass icon](https://lh3.googleusercontent.com/KuEWejhj2GaiP7nNmkKGR3Zh9OCBnY5V4tZgAxCYiH4T3pCTugLTqyC-uzKHQf1VSSgKgb9a9Oa5w4WO1Dz94FTXlWKhcIQB-fh37ltQMb-_ysPEBnWLAl1kIME2FM67Q6OQrXmJow=w100
  "SASS")
+ 
+<br />
 
 #### PRODUCTION/DEPLOYMENT
+
 <br />
 
 ![gunicorn icon](https://lh3.googleusercontent.com/9MmL-4BgOySjRwvHXJJ2L0ghS6RzAma1eoZdHldxiBsz40wUaxXgXcvKCKFFW9Ll1MBjo4xY7F4-fOgBkWplAb9TM-_JfAeNajCWESK5NmfqLr82y8S5FVtywqzBgoKR5I20-qNPpw=w200
