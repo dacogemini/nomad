@@ -23,7 +23,7 @@ The backend application is written in <b>Python</b>, using the <b>Django</b> fra
 
 <img src="https://lh3.googleusercontent.com/hmFsU1gVh-71pDq6k3Wkc8fRkmAfd1rXTsPE_6Cuclx3-2mz-EIQw6YGT4FHlyArnjmUmOJGdRZsDeWp4cV4h2o_J9HSQbrKCbctSmx_lQGWd2RQqWAv887kc-Npelj1q11yQEdT-g=w80" align="left"/>
 
-![sass icon](https://lh3.googleusercontent.com/KuEWejhj2GaiP7nNmkKGR3Zh9OCBnY5V4tZgAxCYiH4T3pCTugLTqyC-uzKHQf1VSSgKgb9a9Oa5w4WO1Dz94FTXlWKhcIQB-fh37ltQMb-_ysPEBnWLAl1kIME2FM67Q6OQrXmJow=w200
+![sass icon](https://lh3.googleusercontent.com/KuEWejhj2GaiP7nNmkKGR3Zh9OCBnY5V4tZgAxCYiH4T3pCTugLTqyC-uzKHQf1VSSgKgb9a9Oa5w4WO1Dz94FTXlWKhcIQB-fh37ltQMb-_ysPEBnWLAl1kIME2FM67Q6OQrXmJow=w100
  "SASS")
 
 <hr />
