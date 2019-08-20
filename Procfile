@@ -1,1 +1,2 @@
-web: waitress-serve --port=$PORT {nomad}.wsgi:application
+web: gunicorn nomad-travel-prod:app
+
