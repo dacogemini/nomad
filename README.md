@@ -13,8 +13,7 @@
 ### TECHNOLOGIES USED
 
 What Technologies Are We Using?
-The backend application is written in <b>Python</b>, using the <b>Django</b> framework and <b>djangoadmin</b>. The frontend application is written in <b>Javascript/HTML5</b>, <b>Jinja</b> templating and <b>SASS</b> & <b>Bootstrap</b> for styling.
-<br />
+The backend application is written in <b>Python</b>, using the <b>Django</b> framework and <b>djangoadmin</b>. The frontend application is written in <b>Javascript/HTML5</b>, <b>Jinja</b> templating and <b>SASS</b> & <b>Bootstrap</b> for styling.<br />
 
 
 <img src="https://lh3.googleusercontent.com/KW52L5UnrHTD81gLX1P94EIyGCYMfv2GjzYFAaRCCphZT-28h5MuA4NmMKLqbLN9nKprWlDG6xNUgcO8YRq4XH4LVZkcKozH4n0572h94_YI9DKsQVpTcOSIepK1Y5uelGIF1UmQrw=w110" align="left"/>  
