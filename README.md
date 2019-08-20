@@ -21,13 +21,15 @@ The backend application is written in <b>Python</b>, using the <b>Django</b> fra
 
 <img src="https://lh3.googleusercontent.com/ul6Mw0hdKF6n4zlydwxMe5QzvgIDuz1U25SOKhZdOviVeayTFv7DVsTT05zk2clHYOPtwQkTrmYX95wbHBaWBtPvLJFBOBPNNOzB9EY1HWRBPcXE2JtRSu0PQnIU_4HkktD-O1PMSg=w80" align="left"/>
 
-<img src="https://lh3.googleusercontent.com/hmFsU1gVh-71pDq6k3Wkc8fRkmAfd1rXTsPE_6Cuclx3-2mz-EIQw6YGT4FHlyArnjmUmOJGdRZsDeWp4cV4h2o_J9HSQbrKCbctSmx_lQGWd2RQqWAv887kc-Npelj1q11yQEdT-g=w80" align="left"/><br/>  
-<br/><br/>
+<img src="https://lh3.googleusercontent.com/hmFsU1gVh-71pDq6k3Wkc8fRkmAfd1rXTsPE_6Cuclx3-2mz-EIQw6YGT4FHlyArnjmUmOJGdRZsDeWp4cV4h2o_J9HSQbrKCbctSmx_lQGWd2RQqWAv887kc-Npelj1q11yQEdT-g=w80" align="left"/>
+
+![sass icon]https://lh3.googleusercontent.com/KuEWejhj2GaiP7nNmkKGR3Zh9OCBnY5V4tZgAxCYiH4T3pCTugLTqyC-uzKHQf1VSSgKgb9a9Oa5w4WO1Dz94FTXlWKhcIQB-fh37ltQMb-_ysPEBnWLAl1kIME2FM67Q6OQrXmJow=w200
+ "SASS")<br/><br/><br/>
 
 <hr />
 
 ### PRODUCTION/DEPLOYMENT
-
+<br />
 ![gunicorn icon](https://lh3.googleusercontent.com/9MmL-4BgOySjRwvHXJJ2L0ghS6RzAma1eoZdHldxiBsz40wUaxXgXcvKCKFFW9Ll1MBjo4xY7F4-fOgBkWplAb9TM-_JfAeNajCWESK5NmfqLr82y8S5FVtywqzBgoKR5I20-qNPpw=w200
  "Gunicorn")
  
