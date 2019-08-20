@@ -32,6 +32,7 @@
 
     .card-primary {
         @include centerer;
+        width: 40%;
         background-color: $brand;
         color: $primary;
         padding: 1rem;

@@ -1,4 +1,4 @@
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
     
     #top-bar {
         h1 {
@@ -8,11 +8,16 @@
     }
     
     .card {
+        height: 23rem;
+        margin-top: 0px !important;
+
         h1 {
-            font-size: 40px;
+            font-size: 20px;
         }
 
-        margin-top: 3rem;
+        h3 {
+            display: none
+        }
     }
 
     .lead {
@@ -28,6 +33,18 @@
     .hide-md-down {
         display: none;
     }
+
+    .none {
+        display: none;
+    }
+
+    .list-group {
+        display: none;
+     }
+ 
+     .bg-dark {
+         display: none;
+     }
 }
 
 @media (max-width: 912px) {
@@ -135,22 +152,40 @@
     }
 }
 
-@media (max-width: 676px) {
+@media (max-width: 640px) {
+
+    #showcase {
+        width: 20rem;
+        margin-top: -100px !important;
+    }
 
     .card {
 
-        margin-top: 2rem;
+        height: 12rem;
 
         h1 {
             font-size: 20px;
         }
+
+        h3 {
+            display: none
+        }
+
     }
 
     .lead {
         font-size: 10px;
     }
 
-    .logo {
-        @include centerer;
+    .none {
+        display: none;
+    }
+
+    .list-group {
+       display: none;
+    }
+
+    .bg-dark {
+        display: none;
     }
 }
