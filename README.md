@@ -1,7 +1,8 @@
-# NOMAD TRAVEL SITE
+# NOMAD TRAVEL SITE 
 ![alt text](https://lh3.googleusercontent.com/DXS4kn3fgbwpq7C6crOJou2xqhudc_pD730UrHCAZRP3c68zbiaU8va8BJ5ujhf0xPjVgWUz6KbGuTKiWy3NYt0oVMrKkvrDuQAgqGspgO1g-utGMVHQN18kx2n7qoqnPREeXcRgPA=s150-p-k
  "created by Dan Collins")
-  ### STEPS
+ 
+ ### INSTALLATION INSCRUCTIONS:
 * Clone the repo https://github.com/dacogemini/nomad.git 
 
 * Run Postgres
