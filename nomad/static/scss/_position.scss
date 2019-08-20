@@ -10,3 +10,7 @@
 .mx-top-rt {
     @include righter-tp;
 }
+
+.center {
+    @include centerer;
+}
