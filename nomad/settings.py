@@ -69,9 +69,9 @@ WSGI_APPLICATION = 'nomad.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'traveldb',
+        'NAME': 'dbostondb',
         'USER': 'postgres',
-        'PASSWORD': 'hawaii1976',
+        'PASSWORD': 'douglas',
         'HOST': 'localhost'
     }
 }

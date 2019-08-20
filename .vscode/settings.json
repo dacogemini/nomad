@@ -1,5 +1,6 @@
 {
     "cSpell.words": [
         "centerer"
-    ]
+    ],
+    "python.pythonPath": "venv/bin/python3"
 }
