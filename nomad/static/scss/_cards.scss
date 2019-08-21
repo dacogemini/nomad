@@ -1,0 +1,43 @@
+.card {
+    padding-top: 1rem;
+}
+
+.card-primary {
+    @include centerer;
+    width: 50%;
+    background-color: $brand;
+    color: $primary;
+    padding: 1rem;
+
+    .card-img-top {
+        max-height: 100px;
+    }
+
+}
+
+.card-header {
+    color: $funjet;
+    background-color: $brand;
+    font-size: 2.5rem;
+    padding: 0.3rem;
+
+}
+// ~~~~~~~~~~~ Card Text Styles ~~~~~~~~~~ //
+.card-text-brand {
+    color: $brand;
+    font-size: 1rem;
+}
+
+.card-text-wht-2 {
+    color: $primary;
+    font-size: 8rem;
+}
+// ~~~~~~~~~~~~~ Card Margins ~~~~~~~~~~~~ //
+.card-left-lg {
+    width: 18rem;
+    margin-left: 20rem;
+}
+
+.card-top-neg-4 {
+    margin-top: -4rem;
+}

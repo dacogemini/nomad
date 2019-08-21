@@ -4,8 +4,7 @@
 @import 'margins';
 @import 'mixins';
 @import 'media-queries';
-@import 'blog';
-@import 'position';
+@import 'cards';
 
 .jumbotron {
     background-image: url(../img/beach.jpg);
@@ -24,21 +23,5 @@
         min-height: 20rem;
         width: 100%;
         background: rgba(51, 51, 51, 0.8);
-    }
-
-    .card {
-        padding-top: 1rem;
-    }
-
-    .card-primary {
-        @include centerer;
-        width: 50%;
-        background-color: $brand;
-        color: $primary;
-        padding: 1rem;
-
-        .card-img-top {
-            max-height: 100px;
-        }
     }
 }
