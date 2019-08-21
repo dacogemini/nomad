@@ -4,10 +4,12 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
-# Quick-start development settings - unsuitable for production
-# See https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/
+# ===================================================================== #
+#     Quick-start development settings - unsuitable for production      #
+#  https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/    #
+# ===================================================================== #
 
-# SECURITY WARNING: keep the secret key used in production secret!
+#! SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '^6h6_h650=!#6t24!z7tn(&6t75gctsl^fso=#^%53tyicfvq)'
 
 # SECURITY WARNING: don't run with debug turned on in production!
@@ -15,7 +17,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-# Application definition
+# ~~~~~~~~~ Application definition ~~~~~~~~ #
 
 INSTALLED_APPS = [
     'pages.apps.PagesConfig',
@@ -29,6 +31,7 @@ INSTALLED_APPS = [
     # Custom Apps
     'django.contrib.humanize',
     'blog',
+    'sendemail.apps.SendemailConfig',
 ]
 
 MIDDLEWARE = [
@@ -62,8 +65,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'nomad.wsgi.application'
 
-
-# Database
+# ~~~~~~~~~~~~~~~~ Database ~~~~~~~~~~~~~~~ #
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 
 DATABASES = {
@@ -75,9 +77,7 @@ DATABASES = {
         'HOST': 'localhost'
     }
 }
-
-
-# Password validation
+# ~~~~~~~~~~ Password validation 🔐~~~~~~~~~~ #
 # https://docs.djangoproject.com/en/2.1/ref/settings/#auth-password-validators
 
 AUTH_PASSWORD_VALIDATORS = [
@@ -96,7 +96,7 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 
-# Internationalization
+# ~~~~~~~~~~ Internationalization ~~~~~~~~~ #
 # https://docs.djangoproject.com/en/2.1/topics/i18n/
 
 LANGUAGE_CODE = 'en-us'
@@ -110,7 +110,7 @@ USE_L10N = True
 USE_TZ = True
 
 
-# Static files (CSS, JavaScript, Images)
+# ~ Static files (CSS, JavaScript, Images)  #
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
@@ -119,6 +119,9 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'nomad/static')
 ]
 
-# Media Folder Settings
+# ~~~~~~~~~ Media Folder Settings ~~~~~~~~~ #
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
+
+# ~~~~~~~~~~~~~~~~~ Email 📧~~~~~~~~~~~~~~~~~ #
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
