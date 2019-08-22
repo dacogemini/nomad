@@ -9,6 +9,7 @@ def emailView(request):
         form = ContactForm()
     else:
         form = ContactForm(request.POST)
+        #? runs validation routines for all its fields
         if form.is_valid():
             subject = form.cleaned_data['subject']
             from_email = form.cleaned_data['from_email']

@@ -11,7 +11,7 @@ django = "*"
 psycopg2 = "*"
 waitress = "*"
 ordereddict = "*"
-
+django-crispy-forms = "*"
 
 [requires]
 python_version = "3.7"
