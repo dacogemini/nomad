@@ -1,5 +1,6 @@
 from django.core.mail import send_mail, BadHeaderError
 from django.http import HttpResponse, HttpResponseRedirect
+from django.template import Context, loader
 from django.shortcuts import render, redirect
 from .forms import ContactForm
 
@@ -9,7 +10,7 @@ def emailView(request):
         form = ContactForm()
     else:
         form = ContactForm(request.POST)
-        #? runs validation routines for all its fields
+        # runs validation routines for all its fields
         if form.is_valid():
             subject = form.cleaned_data['subject']
             from_email = form.cleaned_data['from_email']
@@ -23,4 +24,5 @@ def emailView(request):
 
 
 def successView(request):
-    return HttpResponse('Success! Thank you for your message.')
+    template = loader.get_template("../templates/success.html")
+    return HttpResponse(template.render())

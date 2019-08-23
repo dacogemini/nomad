@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block content %}
+<div class="card md bottom-mar-2 left-mar-xl">
+  <div class="card-header text-white">
+    <center>
+    THANK YOU!
+    </center>
+  </div>
+  <div class="card-body">
+    <h5 class="card-title brand">
+    <center>
+    A member of our team will be in contact shortly</h5>
+    </center>
+    <a class="nav-link btn btn-primary sm" href="{% url 'index' %}">Home</a>
+  </div>
+</div>
+{% endblock %}

@@ -1,7 +1,3 @@
-.card {
-    padding-top: 1rem;
-}
-
 .card-primary {
     @include centerer;
     width: 50%;
@@ -22,6 +18,11 @@
     padding: 0.3rem;
 
 }
+
+.card {
+    padding-top: 1rem;
+}
+
 // ~~~~~~~~~~~ Card Text Styles ~~~~~~~~~~ //
 .card-text-brand {
     color: $brand;
