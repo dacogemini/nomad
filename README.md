@@ -1,5 +1,5 @@
 # NOMAD TRAVEL SITE 
-![alt text](https://lh3.googleusercontent.com/DXS4kn3fgbwpq7C6crOJou2xqhudc_pD730UrHCAZRP3c68zbiaU8va8BJ5ujhf0xPjVgWUz6KbGuTKiWy3NYt0oVMrKkvrDuQAgqGspgO1g-utGMVHQN18kx2n7qoqnPREeXcRgPA=s150-p-k
+![alt text](https://lh3.googleusercontent.com/7jjl6pispPrb4ggjm6y2kWL0zZVyqMC9nkYstLh4KPoZtBW-0MJj0m7FyYUt64H7O3ZmkUwNYRRyepkTZvFXMd7lFh5_AdZ3qzGFo7pVUJSKexLLr0MJavK4jLjnts0B8OorCVh6yQ=w100
  "created by Dan Collins")
  
  #### INSTALLATION INSTRUCTIONS:
