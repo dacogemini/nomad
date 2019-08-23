@@ -1,84 +1,103 @@
 {% extends 'base.html' %}
 {% load static %}
 {% block content %}
-
 <section id="showcase-inner" class="py-5 text-white">
-        <div class="container">
-          <h1 class="brand"><i class="fas fa-info-circle"></i> ABOUT US</h1>
+  <div class="container">
+    <h1 class="brand"><i class="fas fa-info-circle"></i> ABOUT US</h1>
+  </div>
+  <hr />
+</section>
+<!-- Breadcrumb -->
+<section id="bc" class="mt-3">
+  <div class="container" style="margin-top: -100px;">
+  </div>
+</section>
+<section id="about" class="py-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <img
+          src="https://lh3.googleusercontent.com/7gAg-lTsGplfOBAkHbZTQannXM0jjoaCiH1JVj3v7bIaCLWRswuh0e6yGRtoapgslcVV89jjWeFGVByi0BIFRf_a0PEByo_EGpzpMswgmHDeBlTBeKvdH4NL6vEy6HtbVYgGHxBxjQ=w2400"
+          style="width: 300px; float: left; padding: 1rem;" alt="about">
+        <div class="left-mar-xl brand">
+          <p><b>Janus Travel</b> started in 1979 when Ted Janus was a Chicago Police Officer. Ted Janus started selling
+            affordable, discount vacation packages that could be arranged on short notice primarily to law enforcement,
+            fire department personnel, court personnel and federal officers.
+          </p>
+          <p>
+            Janus Travel began as a discount travel agency on Higgins Avenue in Chicago with 3 employees in a rented
+            office. In 1990, Janus Travel purchased its own office at 6121 Northwest Highway in Chicago, IL. Ted Janus
+            retired from the Chicago Police Department after almost 30 years. Today, Janus Travel still sells to law
+            enforcement and fire department personnel, although the clientele has greatly expanded to the general
+            public.
+          </p>
+          <p>
+            Janus Travel specializes in vacation packages to the Caribbean, Mexico, Hawaii and Las Vegas but also sells
+            cruises, air only to certain domestic and international destinations, and packages to destinations all over
+            the world.
+          </p>
+          <blockquote class="blockquote">
+            <p class="mb-0">
+              <i class="fas fa-quote-left"></i>
+            Janus Travel strives to secure the best prices for your vacation packages!
+              <i class="fas fa-quote-right"></i>
+            </p>
+          </blockquote>
         </div>
-      </section>
-      <!-- Breadcrumb -->
-      <section id="bc" class="mt-3">
-        <div class="container" style="margin-top: -100px;">
-        </div>
-      </section>
-      <section id="about" class="py-4">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <img src="https://lh3.googleusercontent.com/7gAg-lTsGplfOBAkHbZTQannXM0jjoaCiH1JVj3v7bIaCLWRswuh0e6yGRtoapgslcVV89jjWeFGVByi0BIFRf_a0PEByo_EGpzpMswgmHDeBlTBeKvdH4NL6vEy6HtbVYgGHxBxjQ=w2400" style="width: 300px; float: left; padding: 1rem;" alt="about">
-              <div class="left-mar-xl">
-              <p class="brand"><b>Janus Travel</b> started in 1979 when Ted Janus was a Chicago Police Officer. Ted Janus started selling affordable, discount vacation packages that could be arranged on short notice primarily to law enforcement, fire department personnel, court personnel and federal officers.
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
 
-Janus Travel began as a discount travel agency on Higgins Avenue in Chicago with 3 employees in a rented office. In 1990, Janus Travel purchased its own office at 6121 Northwest Highway in Chicago, IL. Ted Janus retired from the Chicago Police Department after almost 30 years. Today, Janus Travel still sells to law enforcement and fire department personnel, although the clientele has greatly expanded to the general public.
+<!-- Work -->
+<section id="work" class="bg-primary text-white text-center">
+  <h2 class="display-4">WE WORK FOR YOU!</h2>
+  <h4>At Janus Travel, we know what it takes to create the perfect get-away -- afterall, we've been doing it for forty
+    years!'</h4>
+  <hr>
+</section>
 
-Janus Travel specializes in vacation packages to the Caribbean, Mexico, Hawaii and Las Vegas but also sells cruises, air only to certain domestic and international destinations, and packages to destinations all over the world. 
-
-Janus Travel strives to secure the best prices for your vacation packages!</p>
-            </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    
-      <!-- Work -->
-      <section id="work" class="bg-primary text-white text-center">
-        <h2 class="display-4">WE WORK FOR YOU!</h2>
-        <h4>At Janus Travel, we know what it takes to create the perfect get-away -- afterall, we've been doing it for forty years!'</h4>
+<!-- Team -->
+<section id="team" class="py-5">
+  <div class="container brand">
+    <h2 class="text-center">Our Team</h2>
+    <div class="row text-center">
+      <div class="col-md-4">
+        <img src="assets/img/realtors/kyle.jpg" alt="" class="rounded-circle mb-3">
+        <h4 class="brand">Mark Janus</h4>
+        <p class="text-success">
+          <i class="fas fa-award text-success mb-3"></i> OWNER</p>
         <hr>
-      </section>
-    
-      <!-- Team -->
-      <section id="team" class="py-5">
-        <div class="container brand">
-          <h2 class="text-center">Our Team</h2>
-          <div class="row text-center">
-            <div class="col-md-4">
-              <img src="assets/img/realtors/kyle.jpg" alt="" class="rounded-circle mb-3">
-              <h4 class="brand">Mark Janus</h4>
-              <p class="text-success">
-                <i class="fas fa-award text-success mb-3"></i> OWNER</p>
-              <hr>
-              <p>
-                <i class="fas fa-phone"></i> (555)-555-5555</p>
-              <p>
-                <i class="fas fa-envelope-open"></i> kyle@btrealestate.co</p>
-            </div>
-    
-            <div class="col-md-4">
-              <img src="assets/img/realtors/mark.jpg" alt="" class="rounded-circle mb-3">
-              <h4>Mark Hudson</h4>
-              <p class="text-success">Realtor</p>
-              <hr>
-              <p>
-                <i class="fas fa-phone"></i> (444)-444-4444</p>
-              <p>
-                <i class="fas fa-envelope-open"></i> mark@btrealestate.co</p>
-            </div>
-    
-            <div class="col-md-4">
-              <img src="assets/img/realtors/jenny.jpg" alt="" class="rounded-circle mb-3">
-              <h4>Jenny Johnson</h4>
-              <p class="text-success">Realtor</p>
-              <hr>
-              <p>
-                <i class="fas fa-phone"></i> (333)-333-3333</p>
-              <p>
-                <i class="fas fa-envelope-open"></i> jenny@btrealestate.co</p>
-            </div>
-          </div>
-        </div>
-      </section>
+        <p>
+          <i class="fas fa-phone"></i> (555)-555-5555</p>
+        <p>
+          <i class="fas fa-envelope-open"></i> kyle@btrealestate.co</p>
+      </div>
+
+      <div class="col-md-4">
+        <img src="assets/img/realtors/mark.jpg" alt="" class="rounded-circle mb-3">
+        <h4>Mark Hudson</h4>
+        <p class="text-success">Realtor</p>
+        <hr>
+        <p>
+          <i class="fas fa-phone"></i> (444)-444-4444</p>
+        <p>
+          <i class="fas fa-envelope-open"></i> mark@btrealestate.co</p>
+      </div>
+
+      <div class="col-md-4">
+        <img src="assets/img/realtors/jenny.jpg" alt="" class="rounded-circle mb-3">
+        <h4>Jenny Johnson</h4>
+        <p class="text-success">Realtor</p>
+        <hr>
+        <p>
+          <i class="fas fa-phone"></i> (333)-333-3333</p>
+        <p>
+          <i class="fas fa-envelope-open"></i> jenny@btrealestate.co</p>
+      </div>
+    </div>
+  </div>
+</section>
 
 {% endblock %}

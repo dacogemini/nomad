@@ -14,15 +14,9 @@
     position: relative;
     min-height: 450px;
     margin: 0rem;
+}
 
-    // Overlay
-    .overlay {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        min-height: 20rem;
-        width: 100%;
-        background: rgba(51, 51, 51, 0.8);
-    }
+// Showcase-inner
+#showcase-inner {
+    padding-bottom: 0px !important;
 }
