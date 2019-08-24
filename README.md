@@ -12,6 +12,8 @@
 
 * Navigate to root directory and in the bash terminal run <code>python manage.py runserver</code>
 
+> NOTE: See separate <em>markdown file</em> below for deploying with Digital Ocean.
+
 
 ### TECHNOLOGIES USED
 
