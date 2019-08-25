@@ -1,6 +1,9 @@
-# NOMAD TRAVEL SITE 
-![alt text](https://lh3.googleusercontent.com/DXS4kn3fgbwpq7C6crOJou2xqhudc_pD730UrHCAZRP3c68zbiaU8va8BJ5ujhf0xPjVgWUz6KbGuTKiWy3NYt0oVMrKkvrDuQAgqGspgO1g-utGMVHQN18kx2n7qoqnPREeXcRgPA=s150-p-k
+![alt text](https://lh3.googleusercontent.com/9ATZ7Khxr_01abYRVm1c1gOoWNNUrDrwFJa9Aszg5_Z68dK7-qczbvMeqEIg_KbUOLexG1BgPY4KjThO1eEnR2QxTVMhiFHM-qwSoZsnuWViCZIVaJd2Ha4SBaRgVWYyqk19rde4Bw=w400
  "created by Dan Collins")
+ 
+ <hr />
+ 
+ ## NOMAD TRAVEL SITE 
  
  #### INSTALLATION INSTRUCTIONS:
 * Clone the repo https://github.com/dacogemini/nomad.git 
@@ -8,6 +11,8 @@
 * Run Postgres
 
 * Navigate to root directory and in the bash terminal run <code>python manage.py runserver</code>
+
+> NOTE: See separate <em>markdown file</em> in the <em>root directory</em> for deploying with Digital Ocean.
 
 
 ### TECHNOLOGIES USED
