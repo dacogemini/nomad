@@ -1,5 +1,8 @@
 import os
-
+try:
+    from .local_settings import *
+except ImportError:
+    pass
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -80,6 +83,7 @@ DATABASES = {
         'HOST': 'localhost'
     }
 }
+
 # ~~~~~~~~~~ Password validation 🔐~~~~~~~~~~ #
 # https://docs.djangoproject.com/en/2.1/ref/settings/#auth-password-validators
 
@@ -121,6 +125,7 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'nomad/static')
 ]
+
 
 # ~~~~~~~~~ Media Folder Settings ~~~~~~~~~ #
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
