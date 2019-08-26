@@ -7,7 +7,7 @@ verify_ssl = true
 
 [packages]
 gunicorn = "*"
-django = "*"
+django = "2.1.7"
 psycopg2 = "*"
 waitress = "*"
 ordereddict = "*"
