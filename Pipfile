@@ -6,12 +6,12 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-gunicorn = "*"
-django = "2.2.4"
-psycopg2 = "*"
-waitress = "*"
-ordereddict = "*"
-django-crispy-forms = "*"
+Django==2.2.4
+Pillow==5.2.0
+psycopg2==2.7.5
+psycopg2-binary==2.7.5
+pytz==2018.5
+django-crispy-forms==1.7.2
 
 [requires]
-python_version = "3.7"
+python_version="3.7"
