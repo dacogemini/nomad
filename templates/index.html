@@ -21,28 +21,28 @@
 <body>
     {% block content %}
     {% include 'partials/_navbar_blog.html' %}
-    
+
     <div class="container">
         <div class="row">
             <div class="col-md-8 mb-4 mt-3 left top border padding-top-02">
+                    {% block title %} <h2 class="brand text-center">ARTICLES</h2> {% endblock title %}
+                    <h6 class="card-header">{{ highlight.title }}</h6>
                 {% for post in post_list %}
-                <h2 class="card-title brand">{{ post.title }}</h2>
+                <h1 class="mt-4 brand">{{ post.title }}</h1>
                 <div class="card-body brand">
                     <p class="card-text text-muted h6">{{ post.Author }} | {{ post.created_on}} </p>
+                    <img class="img-fluid rounded" src="{{ post.photo_main.url }}" alt="">
                     <p class="card-text">{{ post.content|slice:":202" }}...</p>
                     <a href="{% url 'post_detail' post.slug  %}" class="btn btn-primary">Read More &rarr;</a>
                 </div>
                 {% endfor %}
             </div>
-            {% block sidebar %}
-            {% include 'partials/_sidebar.html' %}
+            {% block sidebar %} 
+            {% include 'partials/_sidebar.html' %} 
             {% endblock sidebar %}
-            {% endblock %}
         </div>
     </div>
-
-
-
+    {% endblock %}
 </body>
 
 </html>
