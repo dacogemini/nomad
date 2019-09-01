@@ -1,43 +1,48 @@
 {% extends 'base.html' %}
 
 {% block content %}
+<!--~~~~~~~~~~~~~ MAIN_CARD ~~~~~~~~~~~~~~-->
 <div class="jumbotron">
   <div class="jumbo-container">
-  <div class="card card-primary padding-top-02 left-mar-neg" id="showcase">
-  <h1 class="card-header">Welcome to Janus Travel!</h1>
-  <p class="lead">Since 1979 <b>Janus Travel</b> had been providing specialized vacation packages for couples and families all-across Chicagoland! 
-  </p>
-  <p class="none lead">
-  A reliable, friendly, family-owned company, Janus Travel features vacation packages to Mexico, Hawaii, Caribbean, Las Vegas and Europe, over 900 destinations in all! 
-  </p>
-  <p class="lead">
-    <a class="btn btn-warning btn-lg" href="#" role="button">Learn more</a>
-  </p>
-</div>
-</div>
-<div class="card-primary card-left-lg card-top-neg-4 bg-danger">
-  <div class="text-white">
-  <center>
-   <h6>Book NOW with a valued partner!</h6>
-  </center>
-  </div>
-<div class="row">
-  <div class="col-8">
-    <div class="list-group" id="list-tab" role="tablist">
-      <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">FUNJET</a>
-      <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">APPLE</a>
-      <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">LOMAS TRAVEL</a>
-      <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">BLUE SKY TOURS</a>
+    <div class="card card-primary padding-top-02 left-mar-neg md" id="showcase">
+      <h1 class="card-header">Welcome to Janus Travel!</h1>
+      <p class="lead">Since 1979 <b>Janus Travel</b> had been providing specialized vacation packages for couples and
+        families all-across Chicagoland!
+      </p>
+      <p class="none lead">
+        A reliable, friendly, family-owned company, Janus Travel features vacation packages to Mexico, Hawaii,
+        Caribbean, Las Vegas and Europe, over 900 destinations in all!
+      </p>
+      <p class="lead">
+        <a class="btn btn-warning btn-lg" href="#" role="button">Learn more</a>
+      </p>
     </div>
   </div>
-  <div class="col-8">
-    <div class="tab-content" id="nav-tabContent">
-      <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">Funjet is FUN!</div>
-      <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">Apple is fun too!</div>
-      <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">Lomass is bad-ass</div>
-      <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">Blue sky country baby!</div>
+<!--~~~~~~~~~~~~~ LIST_GROUP ~~~~~~~~~~~~~-->
+<div class="d-flex align-items-end flex-column">
+<div class="list-group sm border border-dark bg-dark">
+    <h5 class="mb-2 text-center">OUR PARTNERS</h5>
+  <a href="https://www.funjet.com/" class="list-group-item list-group-item-action" target="_blank">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">Funjet Vacations ®</h5>
+      <small>3 days ago</small>
     </div>
-  </div>
+    <p class="mb-1">Funjet Vacations® is a tour operator with over 40 years of experience!</p>
+  </a>
+  <a href="https://www.funjet.com/" class="list-group-item list-group-item-action" data-toggle="list">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">Apple Vacations</h5>
+      <small class="text-muted">3 days ago</small>
+    </div>
+    <p class="mb-1">Celebrating 50 years of travel innovation!</p>
+  </a>
+  <a href="#" class="list-group-item list-group-item-action" data-toggle="list">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">Blue Sky Tours</h5>
+      <small class="text-muted">3 days ago</small>
+    </div>
+    <p class="mb-1">Blue Sky Tours is the leading wholesaler to Hawaii and the South Pacific!</p>
+  </a>
 </div>
 </div>
 </div>

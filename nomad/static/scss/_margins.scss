@@ -12,6 +12,18 @@
     margin-top: 3rem;
 }
 
+.top-mar-4 {
+    margin-top: 4rem;
+}
+
+.top-mar-5 {
+    margin-top: 4rem;
+}
+
+.top-mar-neg {
+    margin-top: -4rem;
+}
+
 // Right Margins
 
 .right-mar {
@@ -28,6 +40,10 @@
 
 .right-mar-3 {
     margin-right: 3rem;
+}
+
+.right-mar-4 {
+    margin-right: 4rem;
 }
 
 .right-mar-lg {
@@ -57,8 +73,9 @@
 }
 
 .left-mar-lg {
-    margin-left: 8rem;
+    margin-left: 10rem;
 }
+
 
 .left-mar-neg {
     margin-left: -14rem;
@@ -66,6 +83,10 @@
 
 .left-mar-xl {
     margin-left: 20rem;
+}
+
+.left-mar-xxl {
+    margin-left: 55rem;
 }
 
 // Bottom Margins

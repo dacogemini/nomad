@@ -3433,7 +3433,7 @@ input[type="button"].btn-block {
     background-color: #1d2124; }
 
 .jumbotron {
-  padding: 2rem 1rem;
+  padding: 2rem 8rem 2rem 4rem !important;
   margin-bottom: 2rem;
   background-color: #e9ecef;
   border-radius: 0.3rem; }

@@ -6,14 +6,15 @@
 @import 'media-queries';
 @import 'cards';
 @import 'sizes';
+@import 'position';
+
 
 .jumbotron {
     background-image: url(../img/beach.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    min-height: 450px;
-    margin: 0rem;
+    height: 450px;
 }
 
 // Showcase-inner

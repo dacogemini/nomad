@@ -1,8 +1,3 @@
-.position {
-    @include position(absolute, $top: 1em, $left: 50%);
-
-}
-
 .mx-rt {
     @include righter;
 }
@@ -13,4 +8,9 @@
 
 .center {
     @include centerer;
+}
+
+.position {
+    @include position(absolute, $top: 1em, $left: 50%);
+
 }
