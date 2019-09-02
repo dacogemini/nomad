@@ -1,10 +1,4 @@
-<<<<<<< HEAD
-Django==2.1.7
-django-crispy-forms==1.7.2
-gunicorn==19.9.0
-=======
 Django==2.2.4
->>>>>>> a8a04f7b17ec6d61e87ff021b49a1311d6b906da
 Pillow==5.2.0
 pkg-resources==0.0.0
 psycopg2==2.7.5
