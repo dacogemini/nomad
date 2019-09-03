@@ -3,12 +3,6 @@ import os
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-
-# ==================================================== #
-#     Quick-start development settings - unsuitable for production      #
-#  https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/    #
-# ==============================sudo apt install python-pip============================================ #
-
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '^6h6_h650=!#6t24!z7tn(&6t75gctsl^fso=#^%53tyicfvq)'
 
